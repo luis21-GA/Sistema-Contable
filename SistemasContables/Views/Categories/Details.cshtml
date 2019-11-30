@@ -1,0 +1,33 @@
+﻿@model SistemasContables.Models.Category
+
+@{
+    Layout = null;
+    ViewBag.Title = "Details";
+}
+
+<div class="jumbotron jumbotron-category" >
+    <div class="row encabezado div-registros">
+        <div class="col-md-2">
+            @Html.DisplayNameFor(model => model.idCategoria)
+        </div>
+        <div class="col-md-2">
+            @Html.DisplayNameFor(model => model.nombre)
+        </div>
+        <div class="col-md-5">
+            @Html.DisplayNameFor(model => model.descripcion)
+        </div>
+    </div>
+    <div class="row div-registros">
+        <div class="col-md-2">
+            @Html.DisplayFor(model => model.idCategoria)
+        </div>
+        <div class="col-md-2">
+            @Html.DisplayFor(model => model.nombre)
+        </div>
+        <div class="col-md-5">
+            @Html.DisplayFor(model => model.descripcion)
+        </div>
+    
+    </div>
+</div>
+

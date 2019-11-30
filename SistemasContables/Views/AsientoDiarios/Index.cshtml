@@ -1,0 +1,202 @@
+﻿@model IEnumerable<SistemasContables.Models.AsientoDiario>
+
+@{
+    ViewBag.Title = "Asientos de Diario";
+}
+
+<h2 class="text-center">Asientos de Diaro</h2>
+<p>
+    <button class="btn btn-default" onclick="CreateCategory()" id="NuevoRegistro">Nuevo Registro</button>
+</p>
+<div class="container">
+    <div id="CreateAsiento" hidden>
+        @Html.Partial("Create", new SistemasContables.Models.AsientoDiario())
+    </div>
+</div>
+<div class="container">
+    <div id="EditAsiento" hidden>
+        @Html.Partial("Edit", new SistemasContables.Models.AsientoDiario())
+    </div>
+</div>
+
+<div class="jumbotron jumbotron-category">
+
+
+
+    <div class="row encabezado div-registros ">
+        <div class="col-md-1">
+            @Html.DisplayNameFor(model => model.idAsiento)
+        </div>
+        <div class="col-md-2">
+            @Html.DisplayNameFor(model => model.Fecha)
+        </div>
+        <div class="col-md-2">
+            @Html.DisplayNameFor(model => model.Cuentas.CodigoCuenta)
+        </div>
+        <div class="col-md-2">
+            @Html.DisplayNameFor(model => model.Cuentas.nombre)
+        </div>
+        <div class="col-md-2">
+            @Html.DisplayNameFor(model => model.Debe1)
+
+        </div>
+        <div class="col-md-2">
+            @Html.DisplayNameFor(model => model.Haber1)
+        </div>
+    </div>
+    @foreach (var asientos in Model)
+    {
+        <div class="row div-registros">
+            <div class="col-md-1">
+                @Html.DisplayFor(modelItem => asientos.idAsiento)
+            </div>
+            <div class="col-md-2">
+                @Html.DisplayFor(modelItem => asientos.Fecha)
+            </div>
+            <div class="col-md-2">
+                @Html.DisplayFor(modelItem => asientos.Cuentas.CodigoCuenta)
+            </div>
+            <div class="col-md-2">
+                @Html.DisplayFor(modelItem => asientos.Cuentas.nombre)
+            </div>
+            <div class="col-md-2">
+                @Html.DisplayFor(modelItem => asientos.Debe1)
+            </div>
+            <div class="col-md-2">
+                @Html.DisplayFor(modelItem => asientos.Haber1)
+            </div>
+        </div>
+        <div class="row div-registros">
+
+            <div class="col-md-2 col-lg-offset-3">
+                @Html.DisplayFor(modelItem => asientos.Cuentas1.CodigoCuenta)
+            </div>
+            <div class="col-md-2">
+                @Html.DisplayFor(modelItem => asientos.Cuentas1.nombre)
+            </div>
+            <div class="col-md-2">
+                @Html.DisplayFor(modelItem => asientos.Debe2)
+            </div>
+            <div class="col-md-2">
+                @Html.DisplayFor(modelItem => asientos.Haber2)
+            </div>
+        </div>
+        <hr style="margin:0px;" />
+        <div class="row div-registros "style="padding-bottom:0px;">
+
+            <div class="col-md-7 text-center" >
+                <h4 style="margin-top:0px;"> Totales</h4>
+            </div>
+
+            <div class="col-md-2">
+                @Html.DisplayFor(modelItem => asientos.Debe1)
+            </div>
+            <div class="col-md-2">
+                @Html.DisplayFor(modelItem => asientos.Haber2)
+            </div>
+
+        </div>
+        <hr  style="margin-top:0px;"/>
+        <div class="row encabezado">
+            <div class="col-md-1 col-lg-offset-1">
+                @Html.DisplayNameFor(model => model.DEscripcion)
+            </div>
+            <div class="col-md-4">
+                @Html.DisplayFor(modelItem => asientos.DEscripcion)
+            </div>
+            <div class="col-md-4">
+                <div class="col-md-4">
+
+                    <button class="btn btn-default" data-toggle="modal" data-target="#ModalDetalle" onclick="DetailsCategory(@asientos.idAsiento)"><span class="glyphicon glyphicon-modal-window">Detalles</span></button>
+                </div>
+                <div class="col-md-4">
+                    <button class="btn btn-warning" onclick="EditCategoryModal(@asientos.idAsiento)"><span class="glyphicon glyphicon-edit">Modificar</span></button>
+                </div>
+                <div class="col-md-4">
+                    <a title="Borrar" class="btn btn-danger" data-toggle="modal" data-target="#ModalP" onclick="SetDelete(@asientos.idAsiento)"><span class="glyphicon glyphicon-remove">Eliminar</span></a>
+                </div>
+            </div>
+        </div>
+    }
+</div>
+<div class="modal fade " tabindex="-1" role="dialog" id="ModalP">
+
+    @using (Html.BeginForm("Delete", "AsientoDiarios", FormMethod.Post))
+    {
+        @Html.AntiForgeryToken()
+
+        <div class="modal-dialog " role="document">
+            <div class="modal-content modalcontenedor modal-estilo">
+                <div class="modal-header modalheadfoot">
+                    <h5 class="modal-title text-center">Eliminar Registro</h5>
+
+                </div>
+                <div class="modal-body">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                    <div class="form-group">
+                        <input name="id" id="delete" class="form-control" type="hidden" />
+                        <p class="pmodal">
+                            ¿Está seguro que desea eliminar esta Cuenta ? Se perderan todos sus Registros!
+                        </p>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="submit" class="btn btn-primary borrarboton">Borrar</button>
+
+                    <button type="button" class="btn btn-secondary botoncancelar" data-dismiss="modal" onclick="cerrarModal()">Cerrar</button>
+
+                </div>
+                <footer class="modalheadfoot"></footer>
+            </div>
+        </div>
+    }
+</div>
+<div class="modal fade " tabindex="-1" role="dialog" id="ModalDetalle">
+    <div class="modal-dialog " role="document">
+        <div class="modal-content modalcontenedor  modal-estilo-Details">
+            <div class="modal-header modalheadfoot">
+                <h1 class="modal-title text-center" style="color:black;">Detalles De Partida </h1>
+            </div>
+            <div class="modal-body">
+                <div id="DeatlleAsiento">
+                    <div>
+                       @Html.Partial("Details", new SistemasContables.Models.AsientoDiario())
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary botoncancelar" data-dismiss="modal" onclick="cerrarModal()">Regresar</button>
+
+            </div>
+            <footer class="modalheadfoot"></footer>
+        </div>
+    </div>
+
+</div>
+<script>
+
+    function cerrarModal() {
+        $("#NuevoRegistro").show();
+    }
+    function SetDelete(id) {
+        $("#delete").val(id);
+        $("#EditAsiento").hide();
+
+    }
+    function CreateCategory() {
+        $("#CreateAsiento").show();
+        $("#NuevoRegistro").hide();
+
+    }
+
+    function EditCategoryModal(id) {
+        $("#EditAsiento").load("AsientoDiarios/Edit/" + id).show();
+        $("#NuevoRegistro").hide();
+    }
+    function DetailsCategory(id) {
+        $("#DeatlleAsiento").load("AsientoDiarios/Details/" + id).show();
+        $("#NuevoRegistro").hide();
+        $("#EditAsiento").hide();
+
+    }   
+</script>

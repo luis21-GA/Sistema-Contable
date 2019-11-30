@@ -1,0 +1,84 @@
+﻿@model IEnumerable<SistemasContables.Models.Cuentas>
+<hr />
+<h1 class="text-center">Balance de Comprobacion Ajustado</h1>
+<hr />
+<div class="row">
+
+    <div class="col-md-3">
+        <button class="btn btn-default">@Html.ActionLink("Menu Princial", "Index", "Home")</button>
+    </div>
+    <div class="col-md-9 " id="busquedaFiltrada">
+        <div class="col-md-6 col-md-offset-3">
+            @using (Html.BeginForm("LibroMayor", "Cuentas"))
+            {
+                <input type="text" name="buscador" class="form-control " style="display:inline" placeholder="Busqueda Filtarada Por Codigo y Monto" />
+                <input type="submit" value="Buscar" class="btn btn-success " title="Busqueda Filtarada Por Codigo" />
+
+            }
+        </div>
+        <div class="col-md-2">
+            <button class="btn btn-default margenBoton col-md-offset-2 glyphicon glyphicon-filter" title="Eliminar Filtro Actual">@Html.ActionLink("Eliminar Filtro", "Index")</button>
+        </div>
+    </div>
+</div>
+
+<div class="jumbotron jumbotron-category">
+
+
+    <div class="row encabezado div-registros">
+
+        <div class="col-md-2">
+            @Html.DisplayNameFor(model => model.CodigoCuenta)
+        </div>
+        <div class="col-md-3">
+            @Html.DisplayNameFor(model => model.nombre)
+        </div>
+        <div class="col-md-2">
+            @Html.DisplayNameFor(model => model.Cargos)
+        </div>
+        <div class="col-md-2">
+            @Html.DisplayNameFor(model => model.Abonos)
+        </div>
+
+    </div>
+    @foreach (var cuentas in Model)
+    {
+    <div class="row div-registros">
+
+        <div class="col-md-2">
+            @Html.DisplayFor(modelItem => cuentas.CodigoCuenta)
+        </div>
+        <div class="col-md-3">
+            @Html.DisplayFor(modelItem => cuentas.nombre)
+        </div>
+        <div class="col-md-2">
+            @if (cuentas.Cargos == null)
+            {
+                <h5> $ 0</h5>
+            }
+            else
+            {
+                <h5>  $ @Html.DisplayFor(modelItem => cuentas.Cargos)</h5>
+            }
+
+        </div>
+        <div class="col-md-2">
+            @if (cuentas.Abonos == null)
+            {
+                <h5> $ 0</h5>
+            }
+            else
+            {
+                <h5>  $ @Html.DisplayFor(modelItem => cuentas.Abonos)</h5>
+            }
+
+        </div>
+
+
+    </div>
+    }
+
+</div>
+@*@Html.ActionLink("Edit", "Edit", new { id = item.CodigoCuenta }) |
+    @Html.ActionLink("Details", "Details", new { id = item.CodigoCuenta }) |
+    @Html.ActionLink("Delete", "Delete", new { id = item.CodigoCuenta })*@

@@ -1,0 +1,181 @@
+﻿
+@model IEnumerable<SistemasContables.Models.Category>
+
+@{
+    ViewBag.Title = "Categorias";
+    var registro = new SistemasContables.Models.Category();
+}
+<link href="~/Content/Site.css" rel="stylesheet" />
+<hr />
+<h2 class="text-center">Registros de Cuentas </h2>
+<hr />
+
+<div class="row">
+
+    <div class="col-md-3">
+        <button class="btn btn-default" onclick="CreateCategory()" id="NuevoRegistro">Nuevo Registro</button>
+    </div>
+    <div class="col-md-9 " id="busquedaFiltrada">
+        <div class="col-md-6 col-md-offset-3">
+            @using (Html.BeginForm("Index", "Categories"))
+            {
+                <input type="text" name="buscador" class="form-control " style="display:inline" placeholder="Busqueda Filtarada Por Codigo" />
+                <input type="submit" value="Buscar" class="btn btn-success " title="Busqueda Filtarada Por Codigo" />
+
+            }
+        </div>
+        <div class="col-md-2">
+            <button class="btn btn-default margenBoton col-md-offset-2 glyphicon glyphicon-filter" title="Eliminar Filtro Actual">@Html.ActionLink("Eliminar Filtro", "Index")</button>
+        </div>
+    </div>
+
+
+</div>
+<div class="container">
+    <div id="CreateCategory" hidden>
+        @Html.Partial("Create", new SistemasContables.Models.Category())
+    </div>
+</div>
+<div class="container">
+    <div id="EditCategory" hidden>
+        @Html.Partial("Edit", new SistemasContables.Models.Category())
+    </div>
+</div>
+
+<div class="jumbotron jumbotron-category">
+    <div class="row encabezado div-registros ">
+
+        <div class="col-md-2">
+            @Html.DisplayNameFor(model => model.idCategoria)
+        </div>
+        <div class="col-md-2">
+            @Html.DisplayNameFor(model => model.nombre)
+        </div>
+        <div class="col-md-3">
+            @Html.DisplayNameFor(model => model.descripcion)
+        </div>
+
+    </div>
+    @foreach (var categoria in Model)
+    {
+        <div class="row div-registros">
+
+            <div class="col-md-2">
+                @Html.DisplayFor(modelItem => categoria.idCategoria)
+            </div>
+            <div class="col-md-2">
+                @Html.DisplayFor(modelItem => categoria.nombre)
+            </div>
+            <div class="col-md-3">
+                @Html.DisplayFor(modelItem => categoria.descripcion)
+            </div>
+            <div class="col-md-4">
+                <div class="col-md-4">
+
+                    <button class="btn btn-default" data-toggle="modal" data-target="#ModalDetalle" onclick="DetailsCategory(@categoria.idCategoria)"><span class="glyphicon glyphicon-modal-window">Detalles</span></button>
+                </div>
+                <div class="col-md-4">
+                    <button class="btn btn-warning" onclick="EditCategoryModal(@categoria.idCategoria)"><span class="glyphicon glyphicon-edit">Modificar</span></button>
+                </div>
+                <div class="col-md-4">
+                    <a title="Borrar" class="btn btn-danger" data-toggle="modal" data-target="#ModalP" onclick="SetDelete(@categoria.idCategoria)"><span class="glyphicon glyphicon-remove">Eliminar</span></a>
+                </div>
+            </div>
+
+        </div>
+    }
+
+</div>
+
+<div class="modal fade " tabindex="-1" role="dialog" id="ModalP">
+
+    @using (Html.BeginForm("Delete", "Categories", FormMethod.Post))
+    {
+        @Html.AntiForgeryToken()
+
+        <div class="modal-dialog " role="document">
+            <div class="modal-content modalcontenedor modal-estilo">
+                <div class="modal-header modalheadfoot">
+                    <h1 class="modal-title text-center">Eliminar Registro</h1>
+
+                </div>
+                <div class="modal-body">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                    <div class="form-group">
+                        <input name="id" id="delete" class="form-control" type="hidden" />
+                        <p class="pmodal">
+                            ¿Está seguro que desea eliminar esta Categoria?
+                        </p>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="submit" class="btn btn-primary borrarboton">Borrar</button>
+
+                    <button type="button" class="btn btn-secondary botoncancelar" data-dismiss="modal" onclick="cerrarModal()">Cerrar</button>
+
+                </div>
+                <footer class="modalheadfoot"></footer>
+            </div>
+        </div>
+    }
+</div>
+<div class="modal fade " tabindex="-1" role="dialog" id="ModalDetalle">
+
+    <div class="modal-dialog modal-estilo-Details" role="document">
+        <div class="modal-content modalcontenedor modal-estilo-Details">
+            <div class="modal-header modalheadfoot">
+                <h1 class="modal-title text-center" style="color:black;">Detalles de Categoria</h1>
+            </div>
+            <div class="modal-body">
+                <div id="DetalleCategoria">
+                    <div>
+                        @Html.Partial("Details", new SistemasContables.Models.Category())
+                    </div>
+                </div>
+
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary botoncancelar" data-dismiss="modal" onclick="cerrarModal()">Regresar</button>
+
+            </div>
+            <footer class="modalheadfoot"></footer>
+        </div>
+    </div>
+
+</div>
+
+
+
+
+
+<script>
+
+    function cerrarModal() {
+        $("#NuevoRegistro").show();
+    }
+    function SetDelete(id) {
+        $("#delete").val(id);
+        $("#EditCategory").hide();
+
+    }
+    function CreateCategory() {
+        $("#CreateCategory").show();
+        $("#NuevoRegistro").hide();
+
+    }
+
+    function EditCategoryModal(id) {
+        $("#EditCategory").load("Categories/Edit/" + id).show();
+        $("#NuevoRegistro").hide();
+      
+
+
+    }
+    function DetailsCategory(id) {
+        $("#DetalleCategoria").load("Categories/Details/" + id).show();
+        $("#NuevoRegistro").hide();
+        $("#EditCategory").hide();
+
+    }
+</script>
+

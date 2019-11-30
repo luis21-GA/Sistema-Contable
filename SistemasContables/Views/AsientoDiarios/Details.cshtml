@@ -1,0 +1,69 @@
+﻿@model SistemasContables.Models.AsientoDiario
+
+@{
+    Layout = null;
+    ViewBag.Title = "Details";
+}
+<div class="jumbotron jumbotron-category">
+
+    <div class="row encabezado div-registros ">
+        <div class="col-md-1">
+            @Html.DisplayNameFor(model => model.idAsiento)
+        </div>
+        <div class="col-md-3">
+            @Html.DisplayNameFor(model => model.Fecha)
+        </div>
+        <div class="col-md-2">
+            @Html.DisplayNameFor(model => model.Cuentas.CodigoCuenta)
+        </div>
+        <div class="col-md-2">
+            @Html.DisplayNameFor(model => model.Cuentas.nombre)
+        </div>
+        <div class="col-md-2">
+            @Html.DisplayNameFor(model => model.Debe1)
+
+        </div>
+        <div class="col-md-2">
+            @Html.DisplayNameFor(model => model.Haber1)
+        </div>
+
+
+    </div>
+    <div class="row div-registros">
+        <div class="col-md-1">
+            @Html.DisplayFor(model => model.idAsiento)
+        </div>
+        <div class="col-md-3">
+            @Html.DisplayFor(model => model.Fecha)
+        </div>
+        <div class="col-md-2">
+            @Html.DisplayFor(model => model.Cuentas.CodigoCuenta)
+        </div>
+        <div class="col-md-2">
+            @Html.DisplayFor(model => model.Cuentas.nombre)
+        </div>
+        <div class="col-md-2">
+            @Html.DisplayFor(model => model.Debe1)
+        </div>
+        <div class="col-md-2">
+            @Html.DisplayFor(model => model.Haber1)
+        </div>
+    </div>
+    <div class="row div-registros">
+
+        <div class="col-md-2 col-lg-offset-4">
+            @Html.DisplayFor(model => model.Cuentas1.CodigoCuenta)
+        </div>
+        <div class="col-md-2">
+            @Html.DisplayFor(model => model.Cuentas1.nombre)
+        </div>
+        <div class="col-md-2">
+            @Html.DisplayFor(model => model.Debe2)
+        </div>
+        <div class="col-md-2">
+            @Html.DisplayFor(model => model.Haber2)
+        </div>
+    </div>
+</div>
+
+

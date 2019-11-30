@@ -1,0 +1,73 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+
+
+
+.modal-estilo{
+    background-color:gray;
+    /*background-color: rgba(11, 89, 98, 0.5);*/
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 125%;
+}
+
+.div-registros {
+    padding: 1%;
+}
+
+    .div-registros:hover {
+        background-color: rgba(19, 30, 21, 0.89);
+        /*background-color: rgba(11, 89, 98, 0.5);*/
+    }
+.encabezado {
+    background-color: darkslategray;
+}
+body {
+    background-color: darkslategray;
+    color: white;
+    /*padding-top: 0px;
+    /*background-color: rgba(11, 89, 98, 0.5);*/
+    /*background: rgba(11, 89, 98, 0.5);*/
+    /*background-image: url('../../imagenes/fondo.jpg');*/
+    /*color: white;*/
+}
+
+.jumbotron-category {
+    background-color: rgba(29, 68, 68, 0.83);
+}
+
+.paddiing-button-register{
+    padding-top:25px;
+}
+
+.paddiing-button-div-register{
+    padding-bottom:20px;
+    padding-top:10px;
+}
+.colornav {
+    background-color: rgba(11, 89, 98, 0.5);
+}

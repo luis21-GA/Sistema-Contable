@@ -1,0 +1,158 @@
+﻿@model SistemasContables.Models.AsientoDiario
+
+@{
+    Layout = null;
+    ViewBag.Title = "Create";
+}
+
+
+<div class="row paddiing-button-div-register">
+    @using (Html.BeginForm("Create", "AsientoDiarios"))
+    {
+        @Html.AntiForgeryToken()
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+    <div class="row">
+
+        <div class="col-md-2">
+            <div class="row">
+                @Html.LabelFor(model => model.Cuentas.Category.idCategoria, "Categoria", htmlAttributes: new { @class = "control-label col-md-2" })
+            </div>
+
+            <div class="row " style="margin-right:2%;">
+                @Html.DropDownListFor(model => model.Cuentas.Category.idCategoria, (SelectList)ViewBag.idCategoria, htmlAttributes: new { @class = "form-control" })            
+                @Html.ValidationMessageFor(model => model.Cuentas.Category.idCategoria, "", new { @class = "text-danger" })
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="row">
+                @Html.LabelFor(model => model.CodigoCuenta, "CodigoCuenta", htmlAttributes: new { @class = "control-label col-md-2" })
+            </div>
+
+            <div class="row">
+                @Html.DropDownListFor(model => model.CodigoCuenta, (SelectList)ViewBag.CodigoCuenta, null, htmlAttributes: new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.CodigoCuenta, "", new { @class = "text-danger" })
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="row">
+                @Html.LabelFor(model => model.Debe1, htmlAttributes: new { @class = "control-label col-md-2" })
+            </div>
+            <div class="row">
+                @Html.EditorFor(model => model.Debe1, new { htmlAttributes = new { @class = "form-control",id= "debe1" } })
+                @Html.ValidationMessageFor(model => model.Debe1, "", new { @class = "text-danger" })
+            </div>
+        </div>
+        <div class="col-md-3 " hidden>
+            <div class="row">
+                @Html.LabelFor(model => model.Debe2, htmlAttributes: new { @class = "control-label col-md-2" })
+            </div>
+            <div class="row">
+                @Html.EditorFor(model => model.Debe2, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Debe2, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+
+    </div>
+    <div class="row">
+        <div class="col-md-2">
+            <div class="row">
+                @Html.LabelFor(model => model.Cuentas.Category.idCategoria, "Categoria", htmlAttributes: new { @class = "control-label col-md-2" })
+            </div>
+
+            <div class="row" style="margin-right:2%;">
+                @Html.DropDownListFor(model => model.Cuentas.Category.idCategoria, (SelectList)ViewBag.idCategoria, htmlAttributes: new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.Cuentas.Category.idCategoria, "", new { @class = "text-danger" })
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="row">
+                @Html.LabelFor(model => model.CodigoCuenta1, "CodigoCuenta1", htmlAttributes: new { @class = "control-label col-md-2" })
+            </div>
+
+            <div class="row">
+                @Html.DropDownListFor(model => model.CodigoCuenta1, (SelectList)ViewBag.CodigoCuenta1, null, htmlAttributes: new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.CodigoCuenta1, "", new { @class = "text-danger" })
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="row">
+                @Html.LabelFor(model => model.Haber2, htmlAttributes: new { @class = "control-label col-md-2" })
+            </div>
+
+            <div class="row">
+                @Html.EditorFor(model => model.Haber2, new { htmlAttributes = new { @class = "form-control", id = "haber2" } })
+                @Html.ValidationMessageFor(model => model.Haber2, "", new { @class = "text-danger" })
+            </div>
+        </div>
+        <div class="col-md-3"hidden> 
+            <div class="row" >
+                @Html.LabelFor(model => model.Haber1, htmlAttributes: new { @class = "control-label col-md-2" })
+            </div>
+            <div class="row">
+                @Html.EditorFor(model => model.Haber1, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Haber1, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+
+    </div>
+    <div class="row">
+        <div class="col-md-3 col-md-offset-2">
+            <div class="row">
+                @Html.LabelFor(model => model.DEscripcion, htmlAttributes: new { @class = "control-label col-md-2" })
+            </div>
+
+            <div class="row">
+
+                @Html.EditorFor(model => model.DEscripcion, new { htmlAttributes = new { @class = "form-control " } })
+                @Html.ValidationMessageFor(model => model.DEscripcion, "", new { @class = "text-danger" })
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="row">
+                @Html.LabelFor(model => model.Fecha, htmlAttributes: new { @class = "control-label col-md-2" })
+            </div>
+            <div class="row">
+                @Html.EditorFor(model => model.Fecha, new { htmlAttributes = new { @class = "form-control", type = "Date" } })
+                @Html.ValidationMessageFor(model => model.Fecha, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="col-md-2">
+            <div class="row paddiing-button-register">
+                <input type="submit" onclick="Validar();" value="Guardar Registro" class="btn btn-success" />
+            </div>
+
+        </div>
+        <div class="col-md-1">
+            <div class="row paddiing-button-register">
+                <button class="btn btn-default">@Html.ActionLink("Cancelar", "Index")</button>
+            </div>
+        </div>
+    </div>
+
+
+    }
+
+   
+</div>
+
+
+<script type="text/javascript">
+    function Validar() {
+        var debe1 = $("#debe1").val();
+        var haber1 = $("#haber2").val();
+
+        if (debe1!= haber1) {
+            alert("Su Miviemiento a Realizar no coinciden");
+            window.location.assign("AsientoDiarios/Index");
+
+        }
+    }
+   
+</script>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

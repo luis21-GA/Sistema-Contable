@@ -1,0 +1,311 @@
+C:\Users\Cesar Linares\source\repos\SistemasContables\SistemasContables\bin\ApplicationInsights.config
+C:\Users\Cesar Linares\source\repos\SistemasContables\SistemasContables\bin\SistemasContables.dll.config
+C:\Users\Cesar Linares\source\repos\SistemasContables\SistemasContables\bin\SistemasContables.dll
+C:\Users\Cesar Linares\source\repos\SistemasContables\SistemasContables\bin\SistemasContables.pdb
+C:\Users\Cesar Linares\source\repos\SistemasContables\SistemasContables\bin\roslyn\csc.exe
+C:\Users\Cesar Linares\source\repos\SistemasContables\SistemasContables\bin\roslyn\csc.exe.config
+C:\Users\Cesar Linares\source\repos\SistemasContables\SistemasContables\bin\roslyn\csc.rsp
+C:\Users\Cesar Linares\source\repos\SistemasContables\SistemasContables\bin\roslyn\csi.exe
+C:\Users\Cesar Linares\source\repos\SistemasContables\SistemasContables\bin\roslyn\csi.exe.config
+C:\Users\Cesar Linares\source\repos\SistemasContables\SistemasContables\bin\roslyn\csi.rsp
+C:\Users\Cesar Linares\source\repos\SistemasContables\SistemasContables\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Cesar Linares\source\repos\SistemasContables\SistemasContables\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Cesar Linares\source\repos\SistemasContables\SistemasContables\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Cesar Linares\source\repos\SistemasContables\SistemasContables\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Cesar Linares\source\repos\SistemasContables\SistemasContables\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Cesar Linares\source\repos\SistemasContables\SistemasContables\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Cesar Linares\source\repos\SistemasContables\SistemasContables\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Cesar Linares\source\repos\SistemasContables\SistemasContables\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Cesar Linares\source\repos\SistemasContables\SistemasContables\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Cesar Linares\source\repos\SistemasContables\SistemasContables\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Cesar Linares\source\repos\SistemasContables\SistemasContables\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Cesar Linares\source\repos\SistemasContables\SistemasContables\bin\roslyn\System.AppContext.dll
+C:\Users\Cesar Linares\source\repos\SistemasContables\SistemasContables\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Cesar Linares\source\repos\SistemasContables\SistemasContables\bin\roslyn\System.Console.dll
+C:\Users\Cesar Linares\source\repos\SistemasContables\SistemasContables\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Cesar Linares\source\repos\SistemasContables\SistemasContables\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Cesar Linares\source\repos\SistemasContables\SistemasContables\bin\roslyn\System.IO.Compression.dll
+C:\Users\Cesar Linares\source\repos\SistemasContables\SistemasContables\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Cesar Linares\source\repos\SistemasContables\SistemasContables\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Cesar Linares\source\repos\SistemasContables\SistemasContables\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Cesar Linares\source\repos\SistemasContables\SistemasContables\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Cesar Linares\source\repos\SistemasContables\SistemasContables\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Cesar Linares\source\repos\SistemasContables\SistemasContables\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Cesar Linares\source\repos\SistemasContables\SistemasContables\bin\roslyn\System.Security.Claims.dll
+C:\Users\Cesar Linares\source\repos\SistemasContables\SistemasContables\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Cesar Linares\source\repos\SistemasContables\SistemasContables\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Cesar Linares\source\repos\SistemasContables\SistemasContables\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Cesar Linares\source\repos\SistemasContables\SistemasContables\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Cesar Linares\source\repos\SistemasContables\SistemasContables\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Cesar Linares\source\repos\SistemasContables\SistemasContables\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Cesar Linares\source\repos\SistemasContables\SistemasContables\bin\roslyn\System.ValueTuple.dll
+C:\Users\Cesar Linares\source\repos\SistemasContables\SistemasContables\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Cesar Linares\source\repos\SistemasContables\SistemasContables\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Cesar Linares\source\repos\SistemasContables\SistemasContables\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Cesar Linares\source\repos\SistemasContables\SistemasContables\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Cesar Linares\source\repos\SistemasContables\SistemasContables\bin\roslyn\vbc.exe
+C:\Users\Cesar Linares\source\repos\SistemasContables\SistemasContables\bin\roslyn\vbc.exe.config
+C:\Users\Cesar Linares\source\repos\SistemasContables\SistemasContables\bin\roslyn\vbc.rsp
+C:\Users\Cesar Linares\source\repos\SistemasContables\SistemasContables\bin\roslyn\VBCSCompiler.exe
+C:\Users\Cesar Linares\source\repos\SistemasContables\SistemasContables\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Cesar Linares\source\repos\SistemasContables\SistemasContables\bin\Antlr3.Runtime.dll
+C:\Users\Cesar Linares\source\repos\SistemasContables\SistemasContables\bin\EntityFramework.dll
+C:\Users\Cesar Linares\source\repos\SistemasContables\SistemasContables\bin\EntityFramework.SqlServer.dll
+C:\Users\Cesar Linares\source\repos\SistemasContables\SistemasContables\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Cesar Linares\source\repos\SistemasContables\SistemasContables\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Cesar Linares\source\repos\SistemasContables\SistemasContables\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Cesar Linares\source\repos\SistemasContables\SistemasContables\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Cesar Linares\source\repos\SistemasContables\SistemasContables\bin\Microsoft.AI.Web.dll
+C:\Users\Cesar Linares\source\repos\SistemasContables\SistemasContables\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Cesar Linares\source\repos\SistemasContables\SistemasContables\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Cesar Linares\source\repos\SistemasContables\SistemasContables\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\Cesar Linares\source\repos\SistemasContables\SistemasContables\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Cesar Linares\source\repos\SistemasContables\SistemasContables\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Cesar Linares\source\repos\SistemasContables\SistemasContables\bin\Newtonsoft.Json.dll
+C:\Users\Cesar Linares\source\repos\SistemasContables\SistemasContables\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Cesar Linares\source\repos\SistemasContables\SistemasContables\bin\System.Web.Helpers.dll
+C:\Users\Cesar Linares\source\repos\SistemasContables\SistemasContables\bin\System.Web.Mvc.dll
+C:\Users\Cesar Linares\source\repos\SistemasContables\SistemasContables\bin\System.Web.Optimization.dll
+C:\Users\Cesar Linares\source\repos\SistemasContables\SistemasContables\bin\System.Web.Razor.dll
+C:\Users\Cesar Linares\source\repos\SistemasContables\SistemasContables\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Cesar Linares\source\repos\SistemasContables\SistemasContables\bin\System.Web.WebPages.dll
+C:\Users\Cesar Linares\source\repos\SistemasContables\SistemasContables\bin\System.Web.WebPages.Razor.dll
+C:\Users\Cesar Linares\source\repos\SistemasContables\SistemasContables\bin\WebGrease.dll
+C:\Users\Cesar Linares\source\repos\SistemasContables\SistemasContables\bin\EntityFramework.xml
+C:\Users\Cesar Linares\source\repos\SistemasContables\SistemasContables\bin\EntityFramework.SqlServer.xml
+C:\Users\Cesar Linares\source\repos\SistemasContables\SistemasContables\bin\System.Web.Helpers.xml
+C:\Users\Cesar Linares\source\repos\SistemasContables\SistemasContables\bin\System.Web.Mvc.xml
+C:\Users\Cesar Linares\source\repos\SistemasContables\SistemasContables\bin\System.Web.Optimization.xml
+C:\Users\Cesar Linares\source\repos\SistemasContables\SistemasContables\bin\System.Web.Razor.xml
+C:\Users\Cesar Linares\source\repos\SistemasContables\SistemasContables\bin\System.Web.WebPages.xml
+C:\Users\Cesar Linares\source\repos\SistemasContables\SistemasContables\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Cesar Linares\source\repos\SistemasContables\SistemasContables\bin\System.Web.WebPages.Razor.xml
+C:\Users\Cesar Linares\source\repos\SistemasContables\SistemasContables\bin\Newtonsoft.Json.xml
+C:\Users\Cesar Linares\source\repos\SistemasContables\SistemasContables\bin\Antlr3.Runtime.pdb
+C:\Users\Cesar Linares\source\repos\SistemasContables\SistemasContables\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Cesar Linares\source\repos\SistemasContables\SistemasContables\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\Cesar Linares\source\repos\SistemasContables\SistemasContables\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Cesar Linares\source\repos\SistemasContables\SistemasContables\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Cesar Linares\source\repos\SistemasContables\SistemasContables\bin\Microsoft.AI.Web.xml
+C:\Users\Cesar Linares\source\repos\SistemasContables\SistemasContables\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Cesar Linares\source\repos\SistemasContables\SistemasContables\bin\es\System.Web.Helpers.resources.dll
+C:\Users\Cesar Linares\source\repos\SistemasContables\SistemasContables\bin\es\System.Web.Mvc.resources.dll
+C:\Users\Cesar Linares\source\repos\SistemasContables\SistemasContables\bin\es\System.Web.Optimization.resources.dll
+C:\Users\Cesar Linares\source\repos\SistemasContables\SistemasContables\bin\es\System.Web.Razor.resources.dll
+C:\Users\Cesar Linares\source\repos\SistemasContables\SistemasContables\bin\es\System.Web.WebPages.resources.dll
+C:\Users\Cesar Linares\source\repos\SistemasContables\SistemasContables\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\Cesar Linares\source\repos\SistemasContables\SistemasContables\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\Cesar Linares\source\repos\SistemasContables\SistemasContables\obj\Debug\SistemasContables.csprojAssemblyReference.cache
+C:\Users\Cesar Linares\source\repos\SistemasContables\SistemasContables\obj\Debug\SistemasContables.csproj.CoreCompileInputs.cache
+C:\Users\Cesar Linares\source\repos\SistemasContables\SistemasContables\obj\Debug\SistemasContables.csproj.CopyComplete
+C:\Users\Cesar Linares\source\repos\SistemasContables\SistemasContables\obj\Debug\SistemasContables.dll
+C:\Users\Cesar Linares\source\repos\SistemasContables\SistemasContables\obj\Debug\SistemasContables.pdb
+C:\Users\cesar.linaresSA\Desktop\SistemasContables\SistemasContables\bin\ApplicationInsights.config
+C:\Users\cesar.linaresSA\Desktop\SistemasContables\SistemasContables\bin\SistemasContables.dll.config
+C:\Users\cesar.linaresSA\Desktop\SistemasContables\SistemasContables\bin\SistemasContables.dll
+C:\Users\cesar.linaresSA\Desktop\SistemasContables\SistemasContables\bin\SistemasContables.pdb
+C:\Users\cesar.linaresSA\Desktop\SistemasContables\SistemasContables\bin\roslyn\csc.exe
+C:\Users\cesar.linaresSA\Desktop\SistemasContables\SistemasContables\bin\roslyn\csc.exe.config
+C:\Users\cesar.linaresSA\Desktop\SistemasContables\SistemasContables\bin\roslyn\csc.rsp
+C:\Users\cesar.linaresSA\Desktop\SistemasContables\SistemasContables\bin\roslyn\csi.exe
+C:\Users\cesar.linaresSA\Desktop\SistemasContables\SistemasContables\bin\roslyn\csi.exe.config
+C:\Users\cesar.linaresSA\Desktop\SistemasContables\SistemasContables\bin\roslyn\csi.rsp
+C:\Users\cesar.linaresSA\Desktop\SistemasContables\SistemasContables\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\cesar.linaresSA\Desktop\SistemasContables\SistemasContables\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\cesar.linaresSA\Desktop\SistemasContables\SistemasContables\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\cesar.linaresSA\Desktop\SistemasContables\SistemasContables\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\cesar.linaresSA\Desktop\SistemasContables\SistemasContables\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\cesar.linaresSA\Desktop\SistemasContables\SistemasContables\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\cesar.linaresSA\Desktop\SistemasContables\SistemasContables\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\cesar.linaresSA\Desktop\SistemasContables\SistemasContables\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\cesar.linaresSA\Desktop\SistemasContables\SistemasContables\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\cesar.linaresSA\Desktop\SistemasContables\SistemasContables\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\cesar.linaresSA\Desktop\SistemasContables\SistemasContables\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\cesar.linaresSA\Desktop\SistemasContables\SistemasContables\bin\roslyn\System.AppContext.dll
+C:\Users\cesar.linaresSA\Desktop\SistemasContables\SistemasContables\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\cesar.linaresSA\Desktop\SistemasContables\SistemasContables\bin\roslyn\System.Console.dll
+C:\Users\cesar.linaresSA\Desktop\SistemasContables\SistemasContables\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\cesar.linaresSA\Desktop\SistemasContables\SistemasContables\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\cesar.linaresSA\Desktop\SistemasContables\SistemasContables\bin\roslyn\System.IO.Compression.dll
+C:\Users\cesar.linaresSA\Desktop\SistemasContables\SistemasContables\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\cesar.linaresSA\Desktop\SistemasContables\SistemasContables\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\cesar.linaresSA\Desktop\SistemasContables\SistemasContables\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\cesar.linaresSA\Desktop\SistemasContables\SistemasContables\bin\roslyn\System.IO.Pipes.dll
+C:\Users\cesar.linaresSA\Desktop\SistemasContables\SistemasContables\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\cesar.linaresSA\Desktop\SistemasContables\SistemasContables\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\cesar.linaresSA\Desktop\SistemasContables\SistemasContables\bin\roslyn\System.Security.Claims.dll
+C:\Users\cesar.linaresSA\Desktop\SistemasContables\SistemasContables\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\cesar.linaresSA\Desktop\SistemasContables\SistemasContables\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\cesar.linaresSA\Desktop\SistemasContables\SistemasContables\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\cesar.linaresSA\Desktop\SistemasContables\SistemasContables\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\cesar.linaresSA\Desktop\SistemasContables\SistemasContables\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\cesar.linaresSA\Desktop\SistemasContables\SistemasContables\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\cesar.linaresSA\Desktop\SistemasContables\SistemasContables\bin\roslyn\System.ValueTuple.dll
+C:\Users\cesar.linaresSA\Desktop\SistemasContables\SistemasContables\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\cesar.linaresSA\Desktop\SistemasContables\SistemasContables\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\cesar.linaresSA\Desktop\SistemasContables\SistemasContables\bin\roslyn\System.Xml.XPath.dll
+C:\Users\cesar.linaresSA\Desktop\SistemasContables\SistemasContables\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\cesar.linaresSA\Desktop\SistemasContables\SistemasContables\bin\roslyn\vbc.exe
+C:\Users\cesar.linaresSA\Desktop\SistemasContables\SistemasContables\bin\roslyn\vbc.exe.config
+C:\Users\cesar.linaresSA\Desktop\SistemasContables\SistemasContables\bin\roslyn\vbc.rsp
+C:\Users\cesar.linaresSA\Desktop\SistemasContables\SistemasContables\bin\roslyn\VBCSCompiler.exe
+C:\Users\cesar.linaresSA\Desktop\SistemasContables\SistemasContables\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\cesar.linaresSA\Desktop\SistemasContables\SistemasContables\bin\Antlr3.Runtime.dll
+C:\Users\cesar.linaresSA\Desktop\SistemasContables\SistemasContables\bin\EntityFramework.dll
+C:\Users\cesar.linaresSA\Desktop\SistemasContables\SistemasContables\bin\EntityFramework.SqlServer.dll
+C:\Users\cesar.linaresSA\Desktop\SistemasContables\SistemasContables\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\cesar.linaresSA\Desktop\SistemasContables\SistemasContables\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\cesar.linaresSA\Desktop\SistemasContables\SistemasContables\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\cesar.linaresSA\Desktop\SistemasContables\SistemasContables\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\cesar.linaresSA\Desktop\SistemasContables\SistemasContables\bin\Microsoft.AI.Web.dll
+C:\Users\cesar.linaresSA\Desktop\SistemasContables\SistemasContables\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\cesar.linaresSA\Desktop\SistemasContables\SistemasContables\bin\Microsoft.ApplicationInsights.dll
+C:\Users\cesar.linaresSA\Desktop\SistemasContables\SistemasContables\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\cesar.linaresSA\Desktop\SistemasContables\SistemasContables\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\cesar.linaresSA\Desktop\SistemasContables\SistemasContables\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\cesar.linaresSA\Desktop\SistemasContables\SistemasContables\bin\Newtonsoft.Json.dll
+C:\Users\cesar.linaresSA\Desktop\SistemasContables\SistemasContables\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\cesar.linaresSA\Desktop\SistemasContables\SistemasContables\bin\System.Web.Helpers.dll
+C:\Users\cesar.linaresSA\Desktop\SistemasContables\SistemasContables\bin\System.Web.Mvc.dll
+C:\Users\cesar.linaresSA\Desktop\SistemasContables\SistemasContables\bin\System.Web.Optimization.dll
+C:\Users\cesar.linaresSA\Desktop\SistemasContables\SistemasContables\bin\System.Web.Razor.dll
+C:\Users\cesar.linaresSA\Desktop\SistemasContables\SistemasContables\bin\System.Web.WebPages.Deployment.dll
+C:\Users\cesar.linaresSA\Desktop\SistemasContables\SistemasContables\bin\System.Web.WebPages.dll
+C:\Users\cesar.linaresSA\Desktop\SistemasContables\SistemasContables\bin\System.Web.WebPages.Razor.dll
+C:\Users\cesar.linaresSA\Desktop\SistemasContables\SistemasContables\bin\WebGrease.dll
+C:\Users\cesar.linaresSA\Desktop\SistemasContables\SistemasContables\bin\EntityFramework.xml
+C:\Users\cesar.linaresSA\Desktop\SistemasContables\SistemasContables\bin\EntityFramework.SqlServer.xml
+C:\Users\cesar.linaresSA\Desktop\SistemasContables\SistemasContables\bin\System.Web.Helpers.xml
+C:\Users\cesar.linaresSA\Desktop\SistemasContables\SistemasContables\bin\System.Web.Mvc.xml
+C:\Users\cesar.linaresSA\Desktop\SistemasContables\SistemasContables\bin\System.Web.Optimization.xml
+C:\Users\cesar.linaresSA\Desktop\SistemasContables\SistemasContables\bin\System.Web.Razor.xml
+C:\Users\cesar.linaresSA\Desktop\SistemasContables\SistemasContables\bin\System.Web.WebPages.xml
+C:\Users\cesar.linaresSA\Desktop\SistemasContables\SistemasContables\bin\System.Web.WebPages.Deployment.xml
+C:\Users\cesar.linaresSA\Desktop\SistemasContables\SistemasContables\bin\System.Web.WebPages.Razor.xml
+C:\Users\cesar.linaresSA\Desktop\SistemasContables\SistemasContables\bin\Newtonsoft.Json.xml
+C:\Users\cesar.linaresSA\Desktop\SistemasContables\SistemasContables\bin\Antlr3.Runtime.pdb
+C:\Users\cesar.linaresSA\Desktop\SistemasContables\SistemasContables\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\cesar.linaresSA\Desktop\SistemasContables\SistemasContables\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\cesar.linaresSA\Desktop\SistemasContables\SistemasContables\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\cesar.linaresSA\Desktop\SistemasContables\SistemasContables\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\cesar.linaresSA\Desktop\SistemasContables\SistemasContables\bin\Microsoft.AI.Web.xml
+C:\Users\cesar.linaresSA\Desktop\SistemasContables\SistemasContables\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\cesar.linaresSA\Desktop\SistemasContables\SistemasContables\bin\es\System.Web.Helpers.resources.dll
+C:\Users\cesar.linaresSA\Desktop\SistemasContables\SistemasContables\bin\es\System.Web.Mvc.resources.dll
+C:\Users\cesar.linaresSA\Desktop\SistemasContables\SistemasContables\bin\es\System.Web.Optimization.resources.dll
+C:\Users\cesar.linaresSA\Desktop\SistemasContables\SistemasContables\bin\es\System.Web.Razor.resources.dll
+C:\Users\cesar.linaresSA\Desktop\SistemasContables\SistemasContables\bin\es\System.Web.WebPages.resources.dll
+C:\Users\cesar.linaresSA\Desktop\SistemasContables\SistemasContables\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\cesar.linaresSA\Desktop\SistemasContables\SistemasContables\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\cesar.linaresSA\Desktop\SistemasContables\SistemasContables\obj\Debug\SistemasContables.csprojAssemblyReference.cache
+C:\Users\cesar.linaresSA\Desktop\SistemasContables\SistemasContables\obj\Debug\SistemasContables.csproj.CoreCompileInputs.cache
+C:\Users\cesar.linaresSA\Desktop\SistemasContables\SistemasContables\obj\Debug\SistemasContables.csproj.CopyComplete
+C:\Users\cesar.linaresSA\Desktop\SistemasContables\SistemasContables\obj\Debug\SistemasContables.dll
+C:\Users\cesar.linaresSA\Desktop\SistemasContables\SistemasContables\obj\Debug\SistemasContables.pdb
+C:\Users\cesar.linaresSA\Desktop\SistemasContables\SistemasContables\obj\Debug\SistemasContables.Migrations.inicio.resources
+C:\Users\cesar.linaresSA\Desktop\SistemasContables\SistemasContables\obj\Debug\SistemasContables.csproj.GenerateResource.cache
+C:\Users\cesar.linaresSA\Desktop\SistemasContables\SistemasContables\obj\Debug\SistemasContables.Migrations.second.resources
+C:\Users\luisa\Desktop\USB\SistemasContables\SistemasContables\bin\ApplicationInsights.config
+C:\Users\luisa\Desktop\USB\SistemasContables\SistemasContables\bin\SistemasContables.dll.config
+C:\Users\luisa\Desktop\USB\SistemasContables\SistemasContables\bin\SistemasContables.dll
+C:\Users\luisa\Desktop\USB\SistemasContables\SistemasContables\bin\SistemasContables.pdb
+C:\Users\luisa\Desktop\USB\SistemasContables\SistemasContables\bin\roslyn\csc.exe
+C:\Users\luisa\Desktop\USB\SistemasContables\SistemasContables\bin\roslyn\csc.exe.config
+C:\Users\luisa\Desktop\USB\SistemasContables\SistemasContables\bin\roslyn\csc.rsp
+C:\Users\luisa\Desktop\USB\SistemasContables\SistemasContables\bin\roslyn\csi.exe
+C:\Users\luisa\Desktop\USB\SistemasContables\SistemasContables\bin\roslyn\csi.exe.config
+C:\Users\luisa\Desktop\USB\SistemasContables\SistemasContables\bin\roslyn\csi.rsp
+C:\Users\luisa\Desktop\USB\SistemasContables\SistemasContables\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\luisa\Desktop\USB\SistemasContables\SistemasContables\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\luisa\Desktop\USB\SistemasContables\SistemasContables\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\luisa\Desktop\USB\SistemasContables\SistemasContables\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\luisa\Desktop\USB\SistemasContables\SistemasContables\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\luisa\Desktop\USB\SistemasContables\SistemasContables\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\luisa\Desktop\USB\SistemasContables\SistemasContables\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\luisa\Desktop\USB\SistemasContables\SistemasContables\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\luisa\Desktop\USB\SistemasContables\SistemasContables\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\luisa\Desktop\USB\SistemasContables\SistemasContables\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\luisa\Desktop\USB\SistemasContables\SistemasContables\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\luisa\Desktop\USB\SistemasContables\SistemasContables\bin\roslyn\System.AppContext.dll
+C:\Users\luisa\Desktop\USB\SistemasContables\SistemasContables\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\luisa\Desktop\USB\SistemasContables\SistemasContables\bin\roslyn\System.Console.dll
+C:\Users\luisa\Desktop\USB\SistemasContables\SistemasContables\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\luisa\Desktop\USB\SistemasContables\SistemasContables\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\luisa\Desktop\USB\SistemasContables\SistemasContables\bin\roslyn\System.IO.Compression.dll
+C:\Users\luisa\Desktop\USB\SistemasContables\SistemasContables\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\luisa\Desktop\USB\SistemasContables\SistemasContables\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\luisa\Desktop\USB\SistemasContables\SistemasContables\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\luisa\Desktop\USB\SistemasContables\SistemasContables\bin\roslyn\System.IO.Pipes.dll
+C:\Users\luisa\Desktop\USB\SistemasContables\SistemasContables\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\luisa\Desktop\USB\SistemasContables\SistemasContables\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\luisa\Desktop\USB\SistemasContables\SistemasContables\bin\roslyn\System.Security.Claims.dll
+C:\Users\luisa\Desktop\USB\SistemasContables\SistemasContables\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\luisa\Desktop\USB\SistemasContables\SistemasContables\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\luisa\Desktop\USB\SistemasContables\SistemasContables\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\luisa\Desktop\USB\SistemasContables\SistemasContables\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\luisa\Desktop\USB\SistemasContables\SistemasContables\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\luisa\Desktop\USB\SistemasContables\SistemasContables\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\luisa\Desktop\USB\SistemasContables\SistemasContables\bin\roslyn\System.ValueTuple.dll
+C:\Users\luisa\Desktop\USB\SistemasContables\SistemasContables\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\luisa\Desktop\USB\SistemasContables\SistemasContables\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\luisa\Desktop\USB\SistemasContables\SistemasContables\bin\roslyn\System.Xml.XPath.dll
+C:\Users\luisa\Desktop\USB\SistemasContables\SistemasContables\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\luisa\Desktop\USB\SistemasContables\SistemasContables\bin\roslyn\vbc.exe
+C:\Users\luisa\Desktop\USB\SistemasContables\SistemasContables\bin\roslyn\vbc.exe.config
+C:\Users\luisa\Desktop\USB\SistemasContables\SistemasContables\bin\roslyn\vbc.rsp
+C:\Users\luisa\Desktop\USB\SistemasContables\SistemasContables\bin\roslyn\VBCSCompiler.exe
+C:\Users\luisa\Desktop\USB\SistemasContables\SistemasContables\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\luisa\Desktop\USB\SistemasContables\SistemasContables\bin\Antlr3.Runtime.dll
+C:\Users\luisa\Desktop\USB\SistemasContables\SistemasContables\bin\EntityFramework.dll
+C:\Users\luisa\Desktop\USB\SistemasContables\SistemasContables\bin\EntityFramework.SqlServer.dll
+C:\Users\luisa\Desktop\USB\SistemasContables\SistemasContables\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\luisa\Desktop\USB\SistemasContables\SistemasContables\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\luisa\Desktop\USB\SistemasContables\SistemasContables\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\luisa\Desktop\USB\SistemasContables\SistemasContables\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\luisa\Desktop\USB\SistemasContables\SistemasContables\bin\Microsoft.AI.Web.dll
+C:\Users\luisa\Desktop\USB\SistemasContables\SistemasContables\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\luisa\Desktop\USB\SistemasContables\SistemasContables\bin\Microsoft.ApplicationInsights.dll
+C:\Users\luisa\Desktop\USB\SistemasContables\SistemasContables\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\luisa\Desktop\USB\SistemasContables\SistemasContables\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\luisa\Desktop\USB\SistemasContables\SistemasContables\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\luisa\Desktop\USB\SistemasContables\SistemasContables\bin\Newtonsoft.Json.dll
+C:\Users\luisa\Desktop\USB\SistemasContables\SistemasContables\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\luisa\Desktop\USB\SistemasContables\SistemasContables\bin\System.Web.Helpers.dll
+C:\Users\luisa\Desktop\USB\SistemasContables\SistemasContables\bin\System.Web.Mvc.dll
+C:\Users\luisa\Desktop\USB\SistemasContables\SistemasContables\bin\System.Web.Optimization.dll
+C:\Users\luisa\Desktop\USB\SistemasContables\SistemasContables\bin\System.Web.Razor.dll
+C:\Users\luisa\Desktop\USB\SistemasContables\SistemasContables\bin\System.Web.WebPages.Deployment.dll
+C:\Users\luisa\Desktop\USB\SistemasContables\SistemasContables\bin\System.Web.WebPages.dll
+C:\Users\luisa\Desktop\USB\SistemasContables\SistemasContables\bin\System.Web.WebPages.Razor.dll
+C:\Users\luisa\Desktop\USB\SistemasContables\SistemasContables\bin\WebGrease.dll
+C:\Users\luisa\Desktop\USB\SistemasContables\SistemasContables\bin\EntityFramework.xml
+C:\Users\luisa\Desktop\USB\SistemasContables\SistemasContables\bin\EntityFramework.SqlServer.xml
+C:\Users\luisa\Desktop\USB\SistemasContables\SistemasContables\bin\System.Web.Helpers.xml
+C:\Users\luisa\Desktop\USB\SistemasContables\SistemasContables\bin\System.Web.Mvc.xml
+C:\Users\luisa\Desktop\USB\SistemasContables\SistemasContables\bin\System.Web.Optimization.xml
+C:\Users\luisa\Desktop\USB\SistemasContables\SistemasContables\bin\System.Web.Razor.xml
+C:\Users\luisa\Desktop\USB\SistemasContables\SistemasContables\bin\System.Web.WebPages.xml
+C:\Users\luisa\Desktop\USB\SistemasContables\SistemasContables\bin\System.Web.WebPages.Deployment.xml
+C:\Users\luisa\Desktop\USB\SistemasContables\SistemasContables\bin\System.Web.WebPages.Razor.xml
+C:\Users\luisa\Desktop\USB\SistemasContables\SistemasContables\bin\Newtonsoft.Json.xml
+C:\Users\luisa\Desktop\USB\SistemasContables\SistemasContables\bin\Antlr3.Runtime.pdb
+C:\Users\luisa\Desktop\USB\SistemasContables\SistemasContables\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\luisa\Desktop\USB\SistemasContables\SistemasContables\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\luisa\Desktop\USB\SistemasContables\SistemasContables\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\luisa\Desktop\USB\SistemasContables\SistemasContables\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\luisa\Desktop\USB\SistemasContables\SistemasContables\bin\Microsoft.AI.Web.xml
+C:\Users\luisa\Desktop\USB\SistemasContables\SistemasContables\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\luisa\Desktop\USB\SistemasContables\SistemasContables\bin\es\System.Web.Helpers.resources.dll
+C:\Users\luisa\Desktop\USB\SistemasContables\SistemasContables\bin\es\System.Web.Mvc.resources.dll
+C:\Users\luisa\Desktop\USB\SistemasContables\SistemasContables\bin\es\System.Web.Optimization.resources.dll
+C:\Users\luisa\Desktop\USB\SistemasContables\SistemasContables\bin\es\System.Web.Razor.resources.dll
+C:\Users\luisa\Desktop\USB\SistemasContables\SistemasContables\bin\es\System.Web.WebPages.resources.dll
+C:\Users\luisa\Desktop\USB\SistemasContables\SistemasContables\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\luisa\Desktop\USB\SistemasContables\SistemasContables\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\luisa\Desktop\USB\SistemasContables\SistemasContables\obj\Debug\SistemasContables.Migrations.inicio.resources
+C:\Users\luisa\Desktop\USB\SistemasContables\SistemasContables\obj\Debug\SistemasContables.Migrations.second.resources
+C:\Users\luisa\Desktop\USB\SistemasContables\SistemasContables\obj\Debug\SistemasContables.csproj.GenerateResource.cache
+C:\Users\luisa\Desktop\USB\SistemasContables\SistemasContables\obj\Debug\SistemasContables.csproj.CoreCompileInputs.cache
+C:\Users\luisa\Desktop\USB\SistemasContables\SistemasContables\obj\Debug\SistemasContables.csproj.CopyComplete
+C:\Users\luisa\Desktop\USB\SistemasContables\SistemasContables\obj\Debug\SistemasContables.dll
+C:\Users\luisa\Desktop\USB\SistemasContables\SistemasContables\obj\Debug\SistemasContables.pdb

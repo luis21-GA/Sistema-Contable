@@ -1,0 +1,96 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>@ViewBag.Title</title>
+
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+    <link href="~/Content/Site.css" rel="stylesheet" />
+    <style>
+        .colornav{
+    background-color: rgba(11, 89, 98, 0.5);
+    font-weight:bold;
+    }
+    </style>
+</head>
+<body>
+    <div class="navbar navbar-inverse navbar-fixed-top colornav">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                @Html.ActionLink("Sistemas Contables", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">                          
+                </ul>
+                <ul class="nav navbar-nav">
+                    <li class="dropdown">
+                        <a class="dropdown-toggle glyphicon glyphicon-briefcase" data-toggle="dropdown" href="#">
+                            Area Administrativa
+                            <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li>@Html.ActionLink(" Categorias", "Index", "Categories", new { area = "" }, new  {@class="glyphicon glyphicon-folder-open"})</li>
+                            <li class="divider"></li>
+                            <li>@Html.ActionLink(" Cuentas", "Index", "Cuentas", new { area = "" }, new { @class = "glyphicon glyphicon-folder-open" })</li>
+                            <li class="divider"></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle glyphicon glyphicon-credit-card" data-toggle="dropdown" href="#">
+                            Area Contabilidad
+                            <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+
+                            <li>@Html.ActionLink(" Asientos Diarios", "Index", "AsientoDiarios", new { area = "" }, new { @class= "glyphicon glyphicon-book" })</li>
+                            <li class="divider"></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle  glyphicon glyphicon-signal" data-toggle="dropdown" href="#">
+                           Nuesta Empresa
+                            <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+
+                            <li >@Html.ActionLink(" Libro Mayor", "LibroMayor", "Cuentas", new { area = "" }, new { @class= "glyphicon glyphicon-book" })</li>
+                            <li class="divider"></li>
+                            <li>@Html.ActionLink(" Balance de Comprobacion", "BalanceComprobacion", "Cuentas", new { area = "" }, new { @class = "glyphicon glyphicon-credit-card" })</li>
+                            <li class="divider"></li>
+                            <li>@Html.ActionLink(" Balance de Comprobacion Ajustado", "BalanceAjustado", "Cuentas", new { area = "" }, new { @class = "glyphicon glyphicon-glass" })</li>
+                            <li class="divider"></li>
+                        </ul>
+                    </li>
+
+                    <li><a href="#"></a></li>
+                    @*<li><a href="#">Page 3</a></li>*@
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#"><span class="glyphicon glyphicon-earphone"></span> Contactos</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+ 
+    <div class="container body-content">
+        @RenderBody()
+        <hr />
+        <footer  class="text-center">
+            <p>&copy; @DateTime.Now.Year - Sistema Contable 2019 </p>
+        </footer>
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>
